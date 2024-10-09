@@ -1,0 +1,73 @@
+{
+  "education": [
+    {
+      "school": "San Diego State University",
+      "gpa": "3.32",
+      "date": "August 2023 - December 2025",
+      "major": "Accounting, B.S. in Business Administration",
+      "organization": "Student Accounting Society",
+      "courses": "Accounting Information Systems, Business Application Programming, Federal Income Taxation, Intermediate Accounting, Statistical Analysis for Business"
+    },
+    {
+      "school": "San Diego Mesa College",
+      "gpa": "3.79",
+      "date": "August 2018 - May 2022"
+    }
+  ],
+  "workExperience": [
+    {
+      "company": "Daedastream",
+      "position": "Manager",
+      "date": "April 2022 - Present",
+      "description": [
+        "Collaborated in the founding of Daeda Stream, a software development company focused on delivering custom solutions tailored to meet clients' unique needs.",
+        "Monitored developers' progress by requesting weekly updates and discussing project needs to determine additional time or resource requirements.",
+        "Managed organizational structure and human resources to foster a collaborative culture."
+      ]
+    },
+    {
+      "company": "Arrow Plumbing and Drain Services",
+      "position": "Office Manager",
+      "date": "June 2019 - August 2024",
+      "description": [
+        "Managed a fleet of 5 commercial vehicles ensuring they received regular maintenance and were stocked with essential tools and functioning equipment. collaborated with foremen to maintain inventory valued $50,000.",
+        "Managed the filing and reporting of work orders and invoices for over 100 clients and 350 properties.",
+        "Supervised small projects by monitoring progress through daily updates and setting daily goals."
+      ]
+    },
+    {
+      "company": "Airbnb",
+      "position": "Host",
+      "date": "May 2022 - Present",
+      "description": [
+        "Manage property listing and bookings, created optimized listings, set comprehensive house rules, and ensured property cleanliness through regular inspections.",
+        "Communicate with guest in both in English and Spanish, providing translation of property features and instructions to ensure a seamless guest experience.",
+        "Maintaining a 100% response rate as a Super Host with an average 5-star rating from over 90 guests."
+      ]
+    }
+  ],
+  "leadershipAndDevelopment": [
+    {
+      "company": "Daedastream",
+      "position": "Project Manager",
+      "date": "August 2023 - Present",
+      "description": [
+        "Partnered with Arrow Plumbing and Drain services to develop a comprehensive business management software, enabling efficient dispatching 5 + technicians, invoicing, payroll processing, profit and loss tracking, and client and invoice record keeping.",
+        "Responsible for weekly meeting to gather requirements and gaining a deep understating of Arrow Plumbing needs, while clarifying any uncertainties to ensure the development of a tailored software solutions.",
+        "Collaborated with developers to review the existing system, identify key features, and discuss improvements to enhance user experience."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "language": "Spanish",
+      "techSkills": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft Powerpoint",
+        "Tableau",
+        "Python"
+      ]
+    }
+  ]
+}
