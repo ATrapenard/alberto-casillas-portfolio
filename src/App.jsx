@@ -5,11 +5,12 @@ import Landing from "./components/Landing/landing";
 import About from "./components/About/about";
 import Resume from "./components/Resume/resume.jsx";
 import Skills from "./components/Skills/skills";
-console.log(Resume);
+import Navbar from "./components/Navbar/nav.jsx";
 
 function App() {
   return (
     <div className="app">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
