@@ -1,8 +1,8 @@
 import React from "react";
 import "./landing.css";
 
-function Landing() {
+const Landing = () => {
   return <div>landing</div>;
-}
+};
 
 export default Landing;

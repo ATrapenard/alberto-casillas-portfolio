@@ -1,3 +1,48 @@
 .resume-container {
   padding-top: 5rem;
 }
+
+.resume-container h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.resume-container ul {
+  list-style: none;
+}
+
+.resume-header {
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  display: block;
+  position: relative;
+}
+
+.overlay {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 72px;
+}
+
+.header-image {
+  filter: contrast(104%) grayscale() brightness(27%);
+  background-image: url(../../../assets/web-background.jpg);
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: cover;
+  min-height: 350px;
+}
+
+* {
+  box-sizing: border-box;
+}

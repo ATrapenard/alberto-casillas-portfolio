@@ -2,10 +2,18 @@ import React from "react";
 import "./resume.css";
 import data from "./resume_data.json";
 
-function Resume() {
+const Resume = () => {
   const { workExperience, education } = data;
   return (
     <div className="resume-container">
+      <header className="resume-header">
+        <div className="overlay">
+          <h1>Education and Experience</h1>
+        </div>
+        <div className="image-holder">
+          <div className="header-image"></div>
+        </div>
+      </header>
       <div className="education-container">
         <h2>Education</h2>
         <ul>
@@ -38,6 +46,6 @@ function Resume() {
       </div>
     </div>
   );
-}
+};
 
 export default Resume;

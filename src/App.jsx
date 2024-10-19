@@ -6,6 +6,7 @@ import About from "./components/About/about";
 import Resume from "./components/Resume/resume.jsx";
 import Skills from "./components/Skills/skills";
 import Navbar from "./components/Navbar/nav.jsx";
+import Footer from "./components/Footer/footer.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
