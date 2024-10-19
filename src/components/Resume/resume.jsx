@@ -15,31 +15,47 @@ const Resume = () => {
         </div>
       </header>
       <div className="education-container">
-        <h2>Education</h2>
+        <div className="education-text">
+          <h2>Education</h2>
+        </div>
         <ul>
           {education.map((entry, index) => (
             <li key={index} className="education-item">
-              <h3>
+              <h3 className="education-school">
                 {entry.school} - {entry.major} | GPA: {entry.gpa}
               </h3>
-              <p>{entry.date}</p>
-              {entry.courses ? <p>Relevant Courses: {entry.courses}</p> : null}
+              <p className="education-date">{entry.date}</p>
+              {entry.courses ? (
+                <p className="education-courses">
+                  Relevant Courses: {entry.courses}
+                </p>
+              ) : null}
               {entry.organization ? (
-                <p>Relevant Organizations: {entry.organization}</p>
+                <p className="education-organization">
+                  Relevant Organizations: {entry.organization}
+                </p>
               ) : null}
             </li>
           ))}
         </ul>
       </div>
       <div className="experience-container">
-        <h2>Experience</h2>
+        <div className="experience-text">
+          <h2>Experience</h2>
+        </div>
+
         <ul>
           {workExperience.map((entry, index) => (
             <li key={index} className="experience-item">
-              <h3>{entry.company}</h3>
-              <p className="item-date">{entry.date}</p>
-              <p className="item-position">{entry.position}</p>
-              <p className="item-description">{entry.description}</p>
+              <h3 className="experience-company_position">
+                {entry.company} | {entry.position}
+              </h3>
+              <p className="experience-date">{entry.date}</p>
+              <ul className="experience-description">
+                {entry.description.map((bullet, bulletIndex) => (
+                  <li key={bulletIndex}>{bullet}</li>
+                ))}
+              </ul>
             </li>
           ))}
         </ul>
