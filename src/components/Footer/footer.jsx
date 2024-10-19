@@ -38,6 +38,9 @@ const Footer = () => {
               <Link to="/skills">Skills</Link>
             </li>
             <li className="link">
+              <Link to="/resume">Resume</Link>
+            </li>
+            <li className="link">
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
