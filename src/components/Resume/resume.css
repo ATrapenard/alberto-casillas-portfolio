@@ -1,24 +1,26 @@
 .resume-container {
   padding-top: 5rem;
+  background-color: var(--background);
 }
 
 .education-text {
   text-align: center;
-  font-size: 32px;
-  background-color: #333;
+  font-size: 24px;
+  background-color: var(--dark);
   color: white;
   padding: 0.2rem 0;
 }
 
 .experience-text {
   text-align: center;
-  font-size: 32px;
-  background-color: #333;
+  font-size: 24px;
+  background-color: var(--dark);
   color: white;
   padding: 0.2rem 0;
 }
 .resume-container ul {
   list-style: none;
+  margin-bottom: 0;
 }
 
 .education-container li {
