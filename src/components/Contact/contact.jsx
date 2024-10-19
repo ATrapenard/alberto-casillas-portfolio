@@ -25,7 +25,9 @@ const Contact = () => {
   return (
     <div className="contact-form-container">
       <form onSubmit={handleSubmit}>
-        <h2>Contact Me</h2>
+        <h2 className="contact-text">Contact Me</h2>
+        <p className="email-text">albertocasilla123@gmail.com</p>
+        <p>OR</p>
         <input
           type="text"
           name="name"
