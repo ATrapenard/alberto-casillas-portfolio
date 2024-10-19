@@ -3,8 +3,9 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Landing from "./components/Landing/landing";
 import About from "./components/About/about";
-import Resume from "./components/Resume/resume";
+import Resume from "./components/Resume/resume.jsx";
 import Skills from "./components/Skills/skills";
+console.log(Resume);
 
 function App() {
   return (

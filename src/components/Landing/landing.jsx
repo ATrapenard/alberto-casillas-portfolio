@@ -1,8 +1,8 @@
 import React from "react";
 import "./landing.css";
 
-function landing() {
+function Landing() {
   return <div>landing</div>;
 }
 
-export default landing;
+export default Landing;

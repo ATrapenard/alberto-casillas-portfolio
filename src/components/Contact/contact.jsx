@@ -1,8 +1,8 @@
 import React from "react";
 import "./contact.css";
 
-function contact() {
+function Contact() {
   return <div>contact</div>;
 }
 
-export default contact;
+export default Contact;
